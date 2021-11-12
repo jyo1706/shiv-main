@@ -393,9 +393,11 @@ transition: opacity .6s ease;
        margin-right:19px;
        transform: width,height;
        transition-duration: 1s;
-      margin-left:auto;
+        margin-left:auto;
       margin-bottom: auto;
+    
    }
+  
    @media (max-width: 437px)
    {
    .sitems
@@ -404,6 +406,7 @@ transition: opacity .6s ease;
       margin-left: auto !important;
       margin-right:auto;
       margin-bottom: auto;
+
    }
    }
  
@@ -433,7 +436,13 @@ a:hover
 	color:black;
 }
 
-
+@media screen and (max-width:770px)
+{
+	.box 
+	{
+        text-align: center;
+	}
+}
 
 
 
