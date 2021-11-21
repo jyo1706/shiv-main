@@ -272,9 +272,9 @@ transition: opacity .6s ease;
 }
 .bgimg
 {
-	background-image:url(../img/joelvalve-GRPbdOtvDSY-unsplash.jpg);
+	background-image:url(../img/photo-1553729784-e91953dec042.jpg);
     background-repeat: no-repeat;
-    background-size:
+    background-size:cover;
 	height:400px;
 	background-attachment:fixed;
 	
@@ -443,12 +443,27 @@ a:hover
         text-align: center;
 	}
 }
+@media screen and (min-width:990px)
+{
+.login
+{
+	background: white;
+    color:#900C3F;
+    border-radius: 20px;
+    
+}
+}
 
-
-
-
-
-
+@media screen and (max-width:990px)
+{
+.login
+{
+	
+    color: rgba(255,255,255,.55);;
+  
+    
+}
+}
 
 
 
